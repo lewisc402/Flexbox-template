@@ -1,0 +1,49 @@
+html {
+	font: 400 1em/1.4 'Open Sans',sans-serif;
+	color: #404040;
+	height: 100%;
+}
+
+.InputAddOn {
+	display: flex;
+	margin: 1.5em;
+}
+
+.field{
+	flex: 0 0 200px;
+	padding: .5em .75em;
+	border: 1px solid hsla(31,15%,50%,.25);
+	border-right: 0;
+}
+
+.item{
+	color: #666;
+	border: 1px solid hsla(31,15%,50%,.25);
+	background: hsla(31,15%,50%,.1);
+}
+
+.InputAddOn2 {
+	display: flex;
+	margin: 1.5em;
+}
+
+.InputAddOn2 .field {
+	flex: 0 0 300px;
+	padding: .5em .75em;
+	border: 1px solid hsla(31,15%,50%,.25);
+
+}
+
+.InputAddOn2 .item {
+	font: inherit;
+	color: #666;
+	border: 1px solid hsla(31,15%,50%,.25);
+	background: hsla(31,15%,50%,.1);
+	border-right: 0;
+}
+
+input {
+	line-height: normal;
+	font: inherit;
+	color: inherit;
+}

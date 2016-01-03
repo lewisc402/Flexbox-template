@@ -1,0 +1,25 @@
+.Media {
+	display: flex;
+	align-items: flex-start;
+}
+
+.Media-body {
+	flex: 1;
+}
+
+.Media-figure {
+	margin-right: 1em;
+	flex: 0 0 auto;
+}
+
+.Demo {
+	width: 100%;
+	background: hsla(31,15%,50%,.1);
+	border-radius: 3px;
+	padding: .8em 1em 0;
+}
+
+.Image {
+	width: 70px;
+	height: auto;
+}
