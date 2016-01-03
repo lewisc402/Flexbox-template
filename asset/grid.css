@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+}
+
+.Grid--full>.Grid-cell {
+	flex: 0 0 100%;
+}
+
+.Grid {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.Grid-cell {
+	display: flex; /*加入该参数可以使同一行等高*/
+	flex: 1;
+	padding: 1em 0 0 1em;
+}
+
+@media (min-width: 768px) {
+.large-Grid--fit>.Grid-cell {
+	flex: 1;
+}
+}
+
+.Demo {
+	width: 100%;
+	padding: .8em 1em 0;
+	border-radius: 3px;
+	background: hsla(31,15%,50%,.1);
+}
+
+.Demo::after {
+	content: '\00a0';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	margin-top: 1em;
+}
+
+.u-1of2 {
+	flex: 2 1 0;
+}
+.u-1of3 {
+	flex: 0 0 33.3%;
+}
+.u-1of4 {
+	flex: 0 0 25%;
+}
+
